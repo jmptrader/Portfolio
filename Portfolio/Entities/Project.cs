@@ -11,7 +11,7 @@ namespace Portfolio.Entities
         public string Name { get; set; }
         public string Description { get; set; }
         public DateTime PublishDate { get; set; }
-        public ProjectType Type { get; set; }
+        public string Type { get; set; }
         public bool Active { get; set; }
 
     }
